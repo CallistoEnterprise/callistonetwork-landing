@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Sunflower';
+    src: local('SunflowerLight'), url(./assets/fonts/SunflowerLight.ttf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Gilroy Regular';
+    font-weight: 900;
+    src: local('Gilroy-Regular'), url(./assets/fonts/Gilroy-Regular.ttf) format('opentype');
+}
+@font-face {
+    font-family: 'Gilroy Bold';
+    font-weight: 900;
+    src: local('Gilroy-Bold'), url(./assets/fonts/Gilroy-Bold.ttf) format('opentype');
+}
+@font-face {
+    font-family: 'Gilroy Medium';
+    font-weight: 900;
+    src: local('Gilroy-Medium'), url(./assets/fonts/Gilroy-Medium.ttf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 900;
+    src: local('Roboto-Regular'), url(./assets/fonts/Roboto-Regular.ttf) format('opentype');
+}
+
+
+@font-face {
+    font-family: 'GiloryBold';
+    font-weight: 900;
+    src: local('Gilroy-ExtraBold'), url(./assets/fonts/Gilroy-Bold.ttf) format('opentype');
+}
+
+@font-face {
+    font-family: 'GiloryLight';
+    font-weight: 900;
+    src: local('Gilroy-Light'), url(./assets/fonts/Gilroy-Light.otf) format('opentype');
+}
+
+
+
+.nav_right {
+    justify-content: flex-end;
+}
+.p10 {
+    padding: 10px;
+}
+html {
+    scroll-behavior: smooth;
+}
+.padding {
+    padding: 0 10%;
+    @media screen and (max-width: 768px) {
+        padding: 0 20px;
+    }
+}
+.between {
+    justify-content: space-between;
+}
+.row {
+    display: flex;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    align-items: center;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+}
+::-webkit-scrollbar-thumb {
+    background: #163F59 !important;
+}
+.center {
+    justify-content: center;
+}
